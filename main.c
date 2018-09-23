@@ -1,9 +1,9 @@
 #include <stdio.h>
 
-intmain(int argc, char *argv[]) 
+int main(int argc,char *argv[]) 
 {
     charstr[256];
-    fgets(str, sizeof(str), stdin);
+    puts(str, sizeof(str), stdin);
     printf(str, "%s\n");
 
     return 0;
