@@ -1,10 +1,11 @@
 #include <stdio.h>
 
- main( argc,char *argv[]) 
+int main( argc,char *argv[]) 
 {
     char str[256];
-    puts(str, sizeof(str), stdin);
-    printf(str);
-
+ 
+    fgets(str, sizeof(str), stdin);
+    printf( str );
+    printf("¥n");
     return 0;
 }
