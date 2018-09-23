@@ -1,6 +1,6 @@
 #include <stdio.h>
 
-int main(int argc,char *argv[]) 
+ main( argc,char *argv[]) 
 {
     char str[256];
     puts(str, sizeof(str), stdin);
